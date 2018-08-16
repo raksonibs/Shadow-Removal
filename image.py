@@ -5,7 +5,7 @@ import statistics
 
 
 
-img=cv2.imread('p003.png') #path to the image
+img=cv2.imread('test.jpg') #path to the image
 img=np.float64(img)
 blue,green,red=cv2.split(img)
 
